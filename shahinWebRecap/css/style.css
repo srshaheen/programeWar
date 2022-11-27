@@ -1,0 +1,43 @@
+*{
+    margin:auto;
+    padding:0%;
+}
+#hero{
+    height:100vh;
+    background:url(../images/jamuna.jpg) ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
+#hero .container{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+#hero h1{
+    font-size: 56px;
+    color:rgb(246, 228, 183);
+    
+
+}
+#hero h2{
+    color:rgb(141, 70, 101);
+}
+
+#hero button{
+    padding:8px 40px;
+    color:rgb(95, 161, 52);
+    cursor: pointer;
+
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-color:linear-gradient(to left,rgb(205, 105, 87),blue);
+
+}
+#hero button:hover{
+    background-color: rgb(98, 238, 23);
+}
